@@ -1,0 +1,525 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Talha | My Love</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND EFFECTS -->
+    <div class="background-glow"></div>
+    <div class="floating-hearts">♥</div>
+    <div class="floating-hearts heart-two">♥</div>
+    <div class="floating-hearts heart-three">♥</div>
+
+    <!-- OPENING ENVELOPE -->
+    <section class="intro" id="intro">
+
+        <div class="intro-content">
+
+            <p class="small-heading">A LITTLE SURPRISE FOR YOU</p>
+
+            <div class="envelope" onclick="openCard()">
+
+                <div class="envelope-back"></div>
+
+                <div class="letter-preview">
+                    <span>To My Love</span>
+                    <h2>Talha ❤️</h2>
+                </div>
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-front"></div>
+
+                <div class="wax-seal">♥</div>
+
+            </div>
+
+            <h1>Someone made this just for you...</h1>
+
+            <p class="intro-text">
+                A little effort, a lot of feelings,
+                and countless wishes.
+            </p>
+
+            <button class="gold-btn" onclick="openCard()">
+                Open Your Letter
+                <span>♡</span>
+            </button>
+
+            <p class="click-note">A little surprise is waiting inside</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- MAIN WEBSITE -->
+    <main id="main-content">
+
+        <!-- NAVBAR -->
+        <nav class="navbar">
+
+            <a href="#home" class="logo">For Talha <span>♥</span></a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#letter">My Letter</a>
+                <a href="#reasons">Reasons</a>
+                <a href="#gallery">Memories</a>
+                <a href="#surprise">Surprise</a>
+            </div>
+
+        </nav>
+
+<!-- BACKGROUND MUSIC PLAYER -->
+
+<div class="music-player">
+
+    <div class="music-disc" id="music-disc">
+        <div class="disc-center">♥</div>
+    </div>
+
+    <div class="music-info">
+        <h3>Our Special Melody</h3>
+        <p>A little music for my Honey</p>
+    </div>
+
+    <button class="music-button" id="music-button"
+        onclick="toggleMusic()">
+        ▶
+    </button>
+
+    <audio id="birthday-audio" loop>
+        <source src="music/birthday-music.mp3" type="audio/mpeg">
+    </audio>
+
+</div>
+
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">A DAY AS SPECIAL AS YOU</p>
+
+                <h1>Happy Birthday</h1>
+
+                <h2>My Love, Talha</h2>
+
+                <div class="gold-divider">
+                    <span>♥</span>
+                </div>
+
+                <p class="hero-message">
+                    Today, the world celebrates your existence,
+                    and I celebrate the beautiful blessing of
+                    having someone like you in this world.
+                </p>
+
+                <a href="#letter" class="gold-btn">
+                    Read My Heart
+                </a>
+
+            </div>
+
+            <div class="hero-decoration">
+                <div class="rose-circle">🌹</div>
+                <span class="sparkle s1">✦</span>
+                <span class="sparkle s2">✧</span>
+                <span class="sparkle s3">✦</span>
+            </div>
+
+            <div class="scroll-text">
+                SCROLL TO DISCOVER
+                <span>↓</span>
+            </div>
+
+        </section>
+
+
+        <!-- BIRTHDAY WISHES -->
+        <section class="wishes">
+
+            <p class="section-label">A WISH FROM MY HEART</p>
+
+            <h2>May your new year be as beautiful as your soul.</h2>
+
+            <p>
+                May every dream find its way to you.
+                May every difficult day turn into a beautiful memory.
+                And may happiness always find you.
+            </p>
+
+            <div class="wish-decoration">✦ &nbsp; ♥ &nbsp; ✦</div>
+
+        </section>
+
+
+        <!-- LOVE LETTER -->
+        <section class="letter-section" id="letter">
+
+            <p class="section-label">WORDS I WANT YOU TO READ</p>
+
+            <h2>A Letter For <span>My Love</span></h2>
+
+            <div class="letter-card">
+
+                <div class="letter-top">♥</div>
+
+                <p class="letter-greeting">Dear Talha,</p>
+
+                <p>
+                    Happy Birthday to you, my love.
+                    I don't know how to put every feeling
+                    into words, but today I want you to know
+                    that you are truly special.
+                </p>
+
+                <p>
+                    I made this little world just for you.
+                    Every colour, every detail, every little
+                    heart is here to make your day a little
+                    more beautiful.
+                </p>
+
+                <p>
+                    I wish you endless happiness, success,
+                    peace and all the beautiful things
+                    your heart desires.
+                </p>
+
+                <p>
+                    No matter how many birthdays pass,
+                    I hope you always keep that beautiful
+                    smile on your face.
+                </p>
+
+                <p class="letter-ending">
+                    With lots of love,
+                    <br>
+                    <span>Your's MALAIKA❤️</span>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- REASONS -->
+        <section class="reasons-section" id="reasons">
+
+            <p class="section-label">A FEW LITTLE THINGS</p>
+
+            <h2>Reasons You're <span>So Special</span></h2>
+
+            <p class="section-description">
+                There are countless reasons, but here are a few.
+            </p>
+
+            <div class="reason-grid">
+
+                <div class="reason-card">
+                    <span>♡</span>
+                    <h3>Your Smile</h3>
+                    <p>Because it can make an ordinary moment feel special.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>✦</span>
+                    <h3>Your Personality</h3>
+                    <p>There is something beautiful about the person you are.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>🌹</span>
+                    <h3>Your Existence</h3>
+                    <p>Simply being you makes you one of a kind.</p>
+                </div>
+
+                <div class="reason-card">
+                    <span>∞</span>
+                    <h3>Your Happiness</h3>
+                    <p>Seeing you happy is a wish I always carry.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+<!-- OUR MEMORIES GALLERY -->
+
+<section class="gallery-section" id="gallery">
+
+    <p class="section-label">LITTLE MOMENTS, BIG FEELINGS</p>
+
+    <h2>Our Beautiful <span>Memories</span></h2>
+
+    <p class="gallery-description">
+        Some moments deserve to be kept forever.
+        Here are a few little memories close to my heart.
+    </p>
+
+    <div class="gallery-grid">
+
+        <div class="memory-card">
+            <div class="memory-image">
+                <img src="images/memory1.jpg" alt="Our Memory 1">
+            </div>
+            <h3>My Favourite Moment</h3>
+            <p>A moment worth remembering forever ♥</p>
+        </div>
+
+        <div class="memory-card">
+            <div class="memory-image">
+                <img src="images/memory2.jpg" alt="Our Memory 2">
+            </div>
+            <h3>My Happy Place</h3>
+            <p>Some memories never fade.</p>
+        </div>
+
+        <div class="memory-card">
+            <div class="memory-image">
+                <img src="images/memory3.jpg" alt="Our Memory 3">
+            </div>
+            <h3>Little Things</h3>
+            <p>It's always the little things that matter.</p>
+        </div>
+
+        <div class="memory-card">
+            <div class="memory-image">
+                <img src="images/memory4.jpg" alt="Our Memory 4">
+            </div>
+            <h3>Forever Special</h3>
+            <p>A beautiful memory with my Honey ❤️</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- BIRTHDAY COUNTDOWN -->
+<section class="countdown-section" id="countdown">
+    <div class="countdown-content">
+
+        <p class="countdown-label">A SPECIAL DAY IS COMING</p>
+
+        <h2>Counting Every Moment <span>With Love</span></h2>
+
+        <p class="countdown-message">
+            Until the day my Honey was born...
+        </p>
+
+        <div class="countdown-timer" id="countdown-timer">
+
+            <div class="time-box">
+                <span id="days">00</span>
+                <small>DAYS</small>
+            </div>
+
+            <div class="time-box">
+                <span id="hours">00</span>
+                <small>HOURS</small>
+            </div>
+
+            <div class="time-box">
+                <span id="minutes">00</span>
+                <small>MINUTES</small>
+            </div>
+
+            <div class="time-box">
+                <span id="seconds">00</span>
+                <small>SECONDS</small>
+            </div>
+
+        </div>
+
+        <p class="countdown-footer" id="countdown-footer">
+            Every second brings me closer to celebrating YOU ♥
+        </p>
+
+    </div>
+</section>
+
+
+        <!-- BIRTHDAY CAKE -->
+        <section class="cake-section">
+
+            <p class="section-label">MAKE A WISH</p>
+
+            <h2>It's Your Special Day!</h2>
+
+            <div class="cake">🎂</div>
+
+            <p class="cake-text">
+                Close your eyes, make a wish,
+                and let this year bring you magic.
+            </p>
+
+            <h3>Happy Birthday, Talha! ❤️</h3>
+
+        </section>
+
+
+        <!-- FINAL SURPRISE -->
+        <section class="surprise-section" id="surprise">
+
+            <p class="section-label">ONE LAST THING...</p>
+
+            <h2>A Little Secret <span>For You</span></h2>
+
+            <p>
+                I saved one more message especially for you.
+            </p>
+
+            <button class="gold-btn" onclick="revealSurprise()">
+                Reveal My Secret ♥
+            </button>
+
+            <div class="secret-message" id="secret-message">
+
+                <div class="big-heart">♥</div>
+
+                <h2>To My Dearest Man</h2>
+
+                <p>
+                    You deserve all the happiness in this world.
+                    Never stop smiling, never stop dreaming,
+                    and always remember how special you are.
+                </p>
+
+                <h3>Happy Birthday, HONEY! ❤️</h3>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <div class="footer-heart">♥</div>
+
+            <h2>Made With Love</h2>
+
+            <p>A little website, a million feelings.</p>
+
+            <p class="copyright">
+                Especially Created For Talha | Forever Special
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        function openCard() {
+
+            document.getElementById("intro").classList.add("opened");
+
+            document.getElementById("main-content").classList.add("visible");
+
+            setTimeout(function() {
+                document.getElementById("intro").style.display = "none";
+            }, 1000);
+
+        }
+
+
+        function revealSurprise() {
+
+            document.getElementById("secret-message")
+            .classList.toggle("show");
+
+        }
+        
+// MUSIC PLAYER
+
+const audio = document.getElementById("birthday-audio");
+
+const musicButton = document.getElementById("music-button");
+
+const musicDisc = document.getElementById("music-disc");
+
+function toggleMusic() {
+
+    if (audio.paused) {
+
+        audio.play().then(() => {
+
+            musicButton.innerHTML = "Ⅱ";
+
+            musicDisc.classList.add("playing");
+
+        }).catch(() => {
+
+            alert("Please check your music file.");
+
+        });
+
+    } else {
+
+        audio.pause();
+
+        musicButton.innerHTML = "▶";
+
+        musicDisc.classList.remove("playing");
+
+    }
+
+}
+
+
+// BIRTHDAY COUNTDOWN
+
+const birthdayDate = new Date("2026-11-15T00:00:00+05:00").getTime();
+
+function updateCountdown() {
+
+    const now = new Date().getTime();
+    const difference = birthdayDate - now;
+
+    if (difference <= 0) {
+        document.getElementById("countdown-timer").innerHTML =
+            "<h2 style='color:#d4af37;'>Happy Birthday, Honey! ♥</h2>";
+
+        document.getElementById("countdown-footer").innerHTML =
+            "Today is all about YOU, my love!";
+
+        return;
+    }
+
+    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((difference / (1000 * 60)) % 60);
+    const seconds = Math.floor((difference / 1000) % 60);
+
+    document.getElementById("days").innerText = String(days).padStart(2, "0");
+    document.getElementById("hours").innerText = String(hours).padStart(2, "0");
+    document.getElementById("minutes").innerText = String(minutes).padStart(2, "0");
+    document.getElementById("seconds").innerText = String(seconds).padStart(2, "0");
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
+
+    </script>
+
+</body>
+</html>
